@@ -39,3 +39,7 @@ select annotate_query($$
   select 1
 $$);
 ```
+
+### Благодарности
+
+https://github.com/pganalyze/queryparser
