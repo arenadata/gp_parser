@@ -38,6 +38,11 @@ psql -f annotate_query.sql your_database
 select annotate_query($$
   select 1
 $$);
+-----------------------------------------------------------------------------------------------
+({SELECT :distinctClause <> :intoClause <> :targetList ({RESTARGET :name <> :indirection <> :val {A_CONST 1 :typename <>} :location 10}) :fromClause <> :whereClause <> :groupClause <> :havingClause <> :w
+indowClause <> :valuesLists <> :sortClause <> :scatterClause <> :withClause <> :limitOffset <> :limitCount <> :lockingClause <> :op 0 :all false :larg <> :rarg <> :distributedBy <>})
+(1 row)
+
 ```
 
 ### Основано на проекте
