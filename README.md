@@ -40,6 +40,6 @@ select annotate_query($$
 $$);
 ```
 
-### Благодарности
+### Основано на проекте
 
 https://github.com/pganalyze/queryparser
