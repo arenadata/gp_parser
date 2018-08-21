@@ -8,7 +8,7 @@
 
 * Склонировать проект
 ```bash
-git clone https://github.com/darthunix/gp_parser.git
+git clone https://github.com/arenadata/gp_parser.git
 cd gp_parser
 ```
 * Скомпилировать библиотеку с помощью `make`. Должен появиться файл `annotate_query.so`
