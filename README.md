@@ -33,7 +33,7 @@ gpscp -f all_hosts.hosts annotate_query.so =:$(pg_config --pkglibdir)
 psql -f annotate_query.sql your_database
 ```
 
-* Проверим план разбора синтаксического дерева
+* Проверим синтаксическое дерево разбора тестового запроса
 ```sql
 select annotate_query($$
   select 1
