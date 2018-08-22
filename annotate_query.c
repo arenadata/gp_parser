@@ -15,7 +15,6 @@ Datum
 annotate_query(PG_FUNCTION_ARGS)
 {
 	text	*sql_t = PG_GETARG_TEXT_P(0);
-	bool	pretty_b = PG_GETARG_BOOL(1);
 	text	*out_t;
 	char	*sql, *out;
 	List	*tree;
